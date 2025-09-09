@@ -30,7 +30,9 @@ A key feature of this project is the integration of **Explainable AI (XAI)** usi
 
 ---
 
-##  Dataset
+##  Dataset  
+
+**DEEP-VOICE: DeepFake Voice Recognition** --> https://www.kaggle.com/datasets/birdy654/deep-voice-deepfake-voice-recognition/data
 
 The dataset is a CSV file where each row represents an audio clip, characterized by a collection of statistical features.
 
@@ -83,6 +85,8 @@ Dimensionality reduction is the process of reducing the number of input features
 
 ##  Installation
 
+**KAGGLE NOTEBOOK LINK** --> https://www.kaggle.com/code/bibekdas012/apr-assignment
+
 To set up the project environment, follow these steps. It is recommended to use a virtual environment.
 
 1.  **Clone the repository:**
@@ -108,7 +112,7 @@ To set up the project environment, follow these steps. It is recommended to use 
 1.  Place your dataset CSV file in the designated `data/` directory (or update the path in the notebook).
 2.  Launch the Jupyter Notebook:
     ```bash
-    jupyter notebook "Fake vs Real Audio Classification.ipynb"
+    jupyter notebook "Fake_vs_Real_Audio_Classification.ipynb"
     ```
 3.  Execute the cells in the notebook sequentially from top to bottom.
 
