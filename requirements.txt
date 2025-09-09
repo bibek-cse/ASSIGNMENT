@@ -1,0 +1,17 @@
+# Core data science and machine learning libraries
+numpy
+pandas
+scikit-learn
+
+# Plotting and visualization libraries
+matplotlib
+seaborn
+
+# Explainable AI (XAI) library
+shap
+
+# Audio processing library (for generating example spectrograms)
+librosa
+
+# Jupyter environment (often useful to specify for reproducibility)
+notebook
