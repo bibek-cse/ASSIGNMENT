@@ -120,9 +120,14 @@ To set up the project environment, follow these steps. It is recommended to use 
 
 ## Results & Key Findings
 
--   **High Model Performance**: Both Logistic Regression and KNN achieved high F1-scores and AUC values (>0.95), indicating strong predictive power.
--   **Dimensionality Reduction is Highly Effective**: Reducing the feature set from its original dimension down to just 10 (with PCA/SVD) or even 1 (with LDA) resulted in almost no loss of performance. This suggests significant redundancy in the original features.
--   **Top Performing Strategy**: **Logistic Regression on PCA-transformed data** emerged as an excellent choice, providing a great balance of high performance, computational efficiency, and interpretability.
--   **XAI Insights**: The SHAP analysis successfully identified the most influential audio features for the model's predictions, providing valuable domain insights into the acoustic qualities that differentiate real from fake audio.
+The models were evaluated on four different data representations, and the results provide clear insights into the most effective strategies for this classification task.
+
+- **K-Nearest Neighbors is the Top Performer:** The KNN model, when trained on the original, full-feature scaled data, was the standout performer. It achieved the highest scores across the board (F1-Score: 0.993, AUC: 0.999), indicating near-perfect predictive power.
+
+- **Nuanced Impact of Dimensionality Reduction:** The effect of reducing dimensionality varied significantly between models. For K-Nearest Neighbors, dimensionality reduction with PCA/SVD was highly effective, retaining most of its predictive power (F1-Score ~0.984) with just 10 features. In contrast, for Logistic Regression, PCA/SVD led to a notable drop in performance (F1-Score fell from 0.907 to 0.819). LDA, which reduces the data to a single feature, provided strong results for both models, outperforming PCA/SVD for Logistic Regression.
+
+- **Top Performing Strategy Redefined:** For maximum accuracy, the optimal strategy is K-Nearest Neighbors on the original scaled data. For applications where computational efficiency is critical, K-Nearest Neighbors on PCA-transformed data offers an excellent trade-off, achieving ~99% of the top performance with a fraction of the features.
+
+- **XAI Insights:** The SHAP analysis, when applied to a model, successfully identifies the most influential audio features. This provides valuable domain insights into the acoustic qualities that differentiate real from fake audio, helping to understand the "why" behind the predictions.
 
 ---
