@@ -37,7 +37,7 @@ A key feature of this project is the integration of **Explainable AI (XAI)** usi
 
 ## Dataset  
 
-**DEEP-VOICE: DeepFake Voice Recognition** --> https://www.kaggle.com/datasets/birdy654/deep-voice-deepfake-voice-recognition/data
+**DEEP-VOICE** --> [DeepFake Voice Recognition Dataset Link](https://www.kaggle.com/datasets/birdy654/deep-voice-deepfake-voice-recognition/data)
 
 The dataset is a CSV file where each row represents an audio clip, characterized by a collection of statistical features.
 
@@ -89,8 +89,6 @@ Dimensionality reduction is the process of reducing the number of input features
 ---
 
 ## Installation
-
-**KAGGLE NOTEBOOK LINK** --> [https://www.kaggle.com/code/bibekdas012/apr-assignment](https://www.kaggle.com/code/bibekcse/apr-assignment/notebook)
 
 To set up the project environment, follow these steps. It is recommended to use a virtual environment.
 
