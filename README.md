@@ -90,7 +90,7 @@ Dimensionality reduction is the process of reducing the number of input features
 
 ## Installation
 
-**KAGGLE NOTEBOOK LINK** --> https://www.kaggle.com/code/bibekdas012/apr-assignment
+**KAGGLE NOTEBOOK LINK** --> [https://www.kaggle.com/code/bibekdas012/apr-assignment](https://www.kaggle.com/code/bibekcse/apr-assignment/notebook)
 
 To set up the project environment, follow these steps. It is recommended to use a virtual environment.
 
