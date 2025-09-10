@@ -27,7 +27,7 @@ A comprehensive analysis of classical machine learning models and dimensionality
   
 ---
 
-##  Project Overview
+## Project Overview
 
 This project tackles a binary classification problem: distinguishing between **FAKE** and **REAL** audio clips based on a set of pre-extracted acoustic and spectral features. The core of the analysis is a comparative study of classical machine learning models (Logistic Regression, K-Nearest Neighbors) and the impact of different dimensionality reduction techniques (PCA, SVD, LDA).
 
@@ -35,7 +35,7 @@ A key feature of this project is the integration of **Explainable AI (XAI)** usi
 
 ---
 
-##  Dataset  
+## Dataset  
 
 **DEEP-VOICE: DeepFake Voice Recognition** --> https://www.kaggle.com/datasets/birdy654/deep-voice-deepfake-voice-recognition/data
 
@@ -47,7 +47,7 @@ The dataset is a CSV file where each row represents an audio clip, characterized
 
 ---
 
-##  Project Workflow
+## Project Workflow
 
 The analysis is structured into a logical sequence of steps:
 
@@ -60,7 +60,7 @@ The analysis is structured into a logical sequence of steps:
 
 ---
 
-##  Key Concepts & Algorithms
+## Key Concepts & Algorithms
 
 This project leverages several fundamental machine learning concepts.
 
@@ -88,7 +88,7 @@ Dimensionality reduction is the process of reducing the number of input features
 
 ---
 
-##  Installation
+## Installation
 
 **KAGGLE NOTEBOOK LINK** --> https://www.kaggle.com/code/bibekdas012/apr-assignment
 
@@ -112,7 +112,7 @@ To set up the project environment, follow these steps. It is recommended to use 
 
 ---
 
-##  How to Run
+## How to Run
 
 1.  Place your dataset CSV file in the designated `data/` directory (or update the path in the notebook).
 2.  Launch the Jupyter Notebook:
