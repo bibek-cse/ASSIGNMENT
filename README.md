@@ -12,7 +12,7 @@ A comprehensive analysis of classical machine learning models and dimensionality
 ## Run Online
 
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bibek-cse/ASSIGNMENT/blob/main/Fake_vs_Real_Audio_Classification.ipynb)  
-[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/bibekdas012/apr-assignment)
+[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/bibekcse/apr-assignment/notebook)
 
 ---
 
