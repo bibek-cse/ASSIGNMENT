@@ -4,9 +4,15 @@
 [![sklearn](https://img.shields.io/badge/scikit--learn-✓-orange)](https://scikit-learn.org/stable/)
 [![pandas](https://img.shields.io/badge/pandas-✓-blue)](https://pandas.pydata.org/)
 [![shap](https://img.shields.io/badge/SHAP-✓-purple)](https://shap.readthedocs.io/en/latest/)
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<USER>/<REPO>/blob/main/<NOTEBOOK>.ipynb)
 
 A comprehensive analysis of classical machine learning models and dimensionality reduction techniques for detecting fake audio clips. This project includes in-depth Exploratory Data Analysis (EDA), model comparison, and Explainable AI (XAI) to interpret model behavior.
+
+---
+
+## Run Online
+
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bibek-cse/ASSIGNMENT/blob/main/Fake_vs_Real_Audio_Classification.ipynb)  
+[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/bibekdas012/apr-assignment)
 
 ---
 
@@ -18,8 +24,7 @@ A comprehensive analysis of classical machine learning models and dimensionality
 - [Installation](#-installation)
 - [How to Run](#-how-to-run)
 - [Results & Key Findings](#-results--key-findings)
-- [License](#-license)
-
+  
 ---
 
 ##  Project Overview
