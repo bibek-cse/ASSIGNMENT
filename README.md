@@ -115,7 +115,7 @@ To set up the project environment, follow these steps. It is recommended to use 
 1.  Place your dataset CSV file in the designated `data/` directory (or update the path in the notebook).
 2.  Launch the Jupyter Notebook:
     ```bash
-    jupyter notebook "Fake_vs_Real_Audio_Classification.ipynb"
+    jupyter notebook "assignment.ipynb"
     ```
 3.  Execute the cells in the notebook sequentially from top to bottom.
 
